@@ -38,3 +38,95 @@ Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Jo
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+## Variables 
+
+|	Variable	|	Description	|
+|	--------	|	----------	|
+|	sub_id	|	Subject ID	|
+|	activity_type	|	The activity performed	|
+|	timeDomain_BodyAccelerometer_Mean_X	|	Mean time for acceleration of body for X direction	|
+|	timeDomain_BodyAccelerometer_Mean_Y	|	Mean time for acceleration of body for Y direction	|
+|	timeDomain_BodyAccelerometer_Mean_Z	|	Mean time for acceleration of body for Z direction	|
+|	timeDomain_BodyAccelerometer_StandardDeviation_X	|	Standard deviation of time for acceleration of body for X direction	|
+|	timeDomain_BodyAccelerometer_StandardDeviation_Y	|	Standard deviation of time for acceleration of body for Y direction	|
+|	timeDomain_BodyAccelerometer_StandardDeviation_Z	|	Standard deviation of time for acceleration of body for Z direction	|
+|	timeDomain_GravityAccelerometer_Mean_X	|	Mean time of acceleration of gravity for X direction	|
+|	timeDomain_GravityAccelerometer_Mean_Y	|	Mean time of acceleration of gravity for Y direction	|
+|	timeDomain_GravityAccelerometer_Mean_Z	|	Mean time of acceleration of gravity for Z direction	|
+|	timeDomain_GravityAccelerometer_StandardDeviation_X	|	Standard deviation of time of acceleration of gravity for X direction	|
+|	timeDomain_GravityAccelerometer_StandardDeviation_Y	|	Standard deviation of time of acceleration of gravity for Y direction	|
+|	timeDomain_GravityAccelerometer_StandardDeviation_Z	|	Standard deviation of time of acceleration of gravity for Z direction	|
+|	timeDomain_BodyAccelerometerJerk_Mean_X	|	Mean time of body acceleration jerk for X direction	|
+|	timeDomain_BodyAccelerometerJerk_Mean_Y	|	Mean time of body acceleration jerk for Y direction	|
+|	timeDomain_BodyAccelerometerJerk_Mean_Z	|	Mean time of body acceleration jerk for Z direction	|
+|	timeDomain_BodyAccelerometerJerk_StandardDeviation_X	|	Standard deviation of time of body acceleration jerk for X direction	|
+|	timeDomain_BodyAccelerometerJerk_StandardDeviation_Y	|	Standard deviation of time of body acceleration jerk for Y direction	|
+|	timeDomain_BodyAccelerometerJerk_StandardDeviation_Z	|	Standard deviation of time of body acceleration jerk for Z direction	|
+|	timeDomain_BodyGyroscope_Mean_X	|	Mean body gyroscope measurement for X direction	|
+|	timeDomain_BodyGyroscope_Mean_Y	|	Mean body gyroscope measurement for Y direction	|
+|	timeDomain_BodyGyroscope_Mean_Z	|	Mean body gyroscope measurement for Z direction	|
+|	timeDomain_BodyGyroscope_StandardDeviation_X	|	Standard deviation of body gyroscope measurement for X direction	|
+|	timeDomain_BodyGyroscope_StandardDeviation_Y	|	Standard deviation of body gyroscope measurement for Y direction	|
+|	timeDomain_BodyGyroscope_StandardDeviation_Z	|	Standard deviation of body gyroscope measurement for Z direction	|
+|	timeDomain_BodyGyroscopeJerk_Mean_X	|	Mean jerk signal of body for X direction	|
+|	timeDomain_BodyGyroscopeJerk_Mean_Y	|	Mean jerk signal of body for Y direction	|
+|	timeDomain_BodyGyroscopeJerk_Mean_Z	|	Mean jerk signal of body for Z direction	|
+|	timeDomain_BodyGyroscopeJerk_StandardDeviation_X	|	Standard deviation of jerk signal of body for X direction	|
+|	timeDomain_BodyGyroscopeJerk_StandardDeviation_Y	|	Standard deviation of jerk signal of body for Y direction	|
+|	timeDomain_BodyGyroscopeJerk_StandardDeviation_Z	|	Standard deviation of jerk signal of body for Z direction	|
+|	timeDomain_BodyAccelerometerMagnitude_Mean	|	Mean magnitude of body Acc	|
+|	timeDomain_BodyAccelerometerMagnitude_StandardDeviation	|	Standard deviation of magnitude of body Acc	|
+|	tGravityAccelerometerMagnitude_Mean	|	Mean gravity acceleration magnitude	|
+|	tGravityAccelerometerMagnitude_StandardDeviation	|	Standard deviation of gravity acceleration magnitude	|
+|	timeDomain_BodyAccelerometerJerkMagnitude_Mean	|	Mean magnitude of body acceleration jerk	|
+|	timeDomain_BodyAccelerometerJerkMagnitude_StandardDeviation	|	Standard deviation of magnitude of body acceleration jerk	|
+|	timeDomain_BodyGyroscopeMagnitude_Mean	|	Mean magnitude of body gyroscope measurement	|
+|	timeDomain_BodyGyroscopeMagnitude_StandardDeviation	|	Standard deviation of magnitude of body gyroscope measurement	|
+|	timeDomain_BodyGyroscopeJerkMagnitude_Mean	|	Mean magnitude of body body gyroscope jerk measurement	|
+|	timeDomain_BodyGyroscopeJerkMagnitude_StandardDeviation	|	Standard deviation of magnitude of body body gyroscope jerk measurement	|
+|	frequencyDomain_BodyAccelerometer_Mean_X	|	Mean frequency of body acceleration for X direction	|
+|	frequencyDomain_BodyAccelerometer_Mean_Y	|	Mean frequency of body acceleration for Y direction	|
+|	frequencyDomain_BodyAccelerometer_Mean_Z	|	Mean frequency of body acceleration for Z direction	|
+|	frequencyDomain_BodyAccelerometer_StandardDeviation_X	|	Standard deviation of frequency of body acceleration for X direction	|
+|	frequencyDomain_BodyAccelerometer_StandardDeviation_Y	|	Standard deviation of frequency of body acceleration for Y direction	|
+|	frequencyDomain_BodyAccelerometer_StandardDeviation_Z	|	Standard deviation of frequency of body acceleration for Z direction	|
+|	frequencyDomain_BodyAccelerometer_MeanFrequency_X	|	Mean frequency  frequency of body accerlation  for X direction	|
+|	frequencyDomain_BodyAccelerometer_MeanFrequency_Y	|	Mean frequency  frequency of body accerlation  for Y direction	|
+|	frequencyDomain_BodyAccelerometer_MeanFrequency_Z	|	Mean frequency  frequency of body accerlation for Z direction	|
+|	frequencyDomain_BodyAccelerometerJerk_Mean_X	|	Mean frequency of body accerlation jerk for X direction	|
+|	frequencyDomain_BodyAccelerometerJerk_Mean_Y	|	Mean frequency of body accerlation jerk for Y direction	|
+|	frequencyDomain_BodyAccelerometerJerk_Mean_Z	|	Mean frequency of body accerlation jerk for Z direction	|
+|	frequencyDomain_BodyAccelerometerJerk_StandardDeviation_X	|	Standard deviation frequency of body accerlation jerk for X direction	|
+|	frequencyDomain_BodyAccelerometerJerk_StandardDeviation_Y	|	Standard deviation frequency of body accerlation jerk for Y direction	|
+|	frequencyDomain_BodyAccelerometerJerk_StandardDeviation_Z	|	Standard deviation frequency of body accerlation jerk for Z direction	|
+|	frequencyDomain_BodyAccelerometerJerk_MeanFrequency_X	|	Mean frequency  frequency of body accerlation jerk for X direction	|
+|	frequencyDomain_BodyAccelerometerJerk_MeanFrequency_Y	|	Mean frequency  frequency of body accerlation jerk for Y direction	|
+|	frequencyDomain_BodyAccelerometerJerk_MeanFrequency_Z	|	Mean frequency  frequency of body accerlation jerk for Z direction	|
+|	frequencyDomain_BodyGyroscope_Mean_X	|	Mean body gyroscope measurement for X direction	|
+|	frequencyDomain_BodyGyroscope_Mean_Y	|	Mean body gyroscope measurement for Y direction	|
+|	frequencyDomain_BodyGyroscope_Mean_Z	|	Mean  body gyroscope measurement for Z direction	|
+|	frequencyDomain_BodyGyroscope_StandardDeviation_X	|	Standard deviation frequency of body gyroscope measurement for X direction	|
+|	frequencyDomain_BodyGyroscope_StandardDeviation_Y	|	Standard deviation frequency of body gyroscope measurement for Y direction	|
+|	frequencyDomain_BodyGyroscope_StandardDeviation_Z	|	Standard deviation frequency of body gyroscope measurement for Z direction	|
+|	frequencyDomain_BodyGyroscope_MeanFrequency_X	|	Mean frequency of body gyroscope measurement for X direction	|
+|	frequencyDomain_BodyGyroscope_MeanFrequency_Y	|	Mean frequency of body gyroscope measurement for Y direction	|
+|	frequencyDomain_BodyGyroscope_MeanFrequency_Z	|	Mean frequency of body gyroscope measurement for Z direction	|
+|	frequencyDomain_BodyAccelerometerMagnitude_Mean	|	Mean frequency of body acceleration magnitude	|
+|	frequencyDomain_BodyAccelerometerMagnitude_StandardDeviation	|	Standard deviation of frequency of body acceleration magnitude	|
+|	frequencyDomain_BodyAccelerometerMagnitude_MeanFrequency	|	Mean frequency of body acceleration magnitude	|
+|	frequencyDomain_BodyAccelerometerJerkMagnitude_Mean	|	Mean body acceleration jerk magnitude	|
+|	frequencyDomain_BodyAccelerometerJerkMagnitude_StandardDeviation	|	Standard deviation of body acceleration jerk magnitude	|
+|	frequencyDomain_BodyAccelerometerJerkMagnitude_MeanFrequency	|	Mean Frquency  of body acceleration jerk magnitude	|
+|	frequencyDomain_BodyGyroscopeMagnitude_Mean	|	Mean body gyroscope magnitude	|
+|	frequencyDomain_BodyGyroscopeMagnitude_StandardDeviation	|	Standard deviation of body gyroscope magnitude	|
+|	frequencyDomain_BodyGyroscopeMagnitude_MeanFrequency	|	Mean Frquency  of body gyroscope magnitude	|
+|	frequencyDomain_BodyGyroscopeJerkMagnitude_Mean	|	Mean body gyroscope jerk magnitude	|
+|	frequencyDomain_BodyGyroscopeJerkMagnitude_StandardDeviation	|	Standard deviation of body gyroscope jerk magnitude	|
+|	frequencyDomain_BodyGyroscopeJerkMagnitude_MeanFrequency	|	Mean Frquency  of body gyroscope jerk  magnitude	|
+|	angletimeDomain_BodyAccelerometerJerk_Mean_gravity_Mean	|	Angle between body acceleration jerk mean and gravity mean 	|
+|	angletimeDomain_BodyGyroscope_Mean_gravity_Mean	|	Angle between body gyroscope mean and gravity mean 	|
+|	angletimeDomain_BodyGyroscopeJerk_Mean_gravity_Mean	|	Angle between body gyroscope jerk mean and gravity mean 	|
+|	angleX_gravity_Mean	|	Angle between X and gravity mean 	|
+|	angleY_gravity_Mean	|	Angle between Y and gravity mean 	|
+|	angleZ_gravity_Mean	|	Angle between Z and gravity mean 	|
