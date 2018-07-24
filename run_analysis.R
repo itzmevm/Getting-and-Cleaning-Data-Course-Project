@@ -1,6 +1,6 @@
-## Define Libararies 
+## Define Libraries 
 
-library(dplyr)
+library(dplyr) # dplyr used for chaining purpose 
 
 # Set working directory 
 
