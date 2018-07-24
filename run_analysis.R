@@ -144,6 +144,7 @@ colnames(combined) <- gsub("mean", "Mean", colnames(combined), fixed = TRUE)
 colnames(combined) <- gsub("std", "StandardDeviation", colnames(combined), fixed = TRUE)
 colnames(combined) <- gsub("fBody", "frequencyDomain_Body", colnames(combined), fixed = TRUE)
 colnames(combined) <- gsub("tBody", "timeDomain_Body", colnames(combined), fixed = TRUE)
+colnames(combined) <- gsub("tGravity", "timeDomain_Gravity", colnames(combined), fixed = TRUE)
 colnames(combined) <- gsub(",", "_", colnames(combined), fixed = TRUE) 
 colnames(combined) <- gsub("BodyBody", "Body", colnames(combined), fixed = TRUE) 
  
