@@ -1,12 +1,18 @@
+#=====================================#
 ## Define Libraries 
+#=====================================#
 
 library(dplyr) # dplyr used for chaining purpose 
 
+#=====================================#
 # Set working directory 
+#=====================================#
 
 setwd("../UCI HAR Dataset")
 
+#=====================================#
 # Source URL : 
+#=====================================#
 
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
@@ -40,15 +46,15 @@ Xcols <-features$feature_name
 
 act_labels <- fread("activity_labels.txt")
 colnames(act_labels) <- c('activity_id', 'activity_type')
-head(act_labels)
-act_labels
+#head(act_labels)
+#act_labels
 
 #=====================================#
 ## Read features info 
 #=====================================#
 
 features_info <- fread("features_info.txt")
-head(features_info)
+#head(features_info)
 
 #=====================================#
 ## Read Test datasets :
